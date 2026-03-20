@@ -27,11 +27,13 @@ A simple Python-based log analyzer that helps identify errors, warnings, and pat
 
 ## 📈 Sample Output
 -------Log Summary----------
+
 INFO logs:  3
 WARNING logs:  2
 ERROR logs:  5
 
 -------Error Deatails--------
+
 2026-03-15 10:03:45 ERROR Database connection failed 1 time
 2026-03-15 10:04:20 ERROR Timeout while calling API 1 time
 2026-03-15 10:06:02 ERROR Database connection failed 1 time
