@@ -24,23 +24,23 @@ ERROR Timeout occurred
 
 
 ## 📈 Sample Output
--------Log Summary----------
+=======Log Summary==========
+INFO    :  3
+WARNING :  2
+ERROR   :  5
 
-INFO logs:  3
-WARNING logs:  2
-ERROR logs:  5
-
--------Error Deatails--------
-
-2026-03-15 10:03:45 ERROR Database connection failed 1 time
-2026-03-15 10:04:20 ERROR Timeout while calling API 1 time
-2026-03-15 10:06:02 ERROR Database connection failed 1 time
-2026-03-15 10:06:15 ERROR Database connection failed 1 time
-2026-03-15 10:06:30 ERROR Database connection failed 1 time
+=======Error Details========
+ERROR Database connection failed -> 1 time
+ERROR Timeout while calling API  -> 1 time
+ERROR Database connection failed -> 1 time
+ERROR Database connection failed -> 1 time
+ERROR Database connection failed -> 1 time
 
 
 ## ▶️ How to Run
-```bash
+1. Clone the repository
 git clone https://github.com/ptikare/sre-log-analyzer
 cd sre-log-analyzer/src
+
+2. Run the script
 python log_analyzer.py sample.log
