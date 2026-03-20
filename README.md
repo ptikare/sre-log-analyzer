@@ -43,4 +43,6 @@ ERROR logs:  5
 
 ## ▶️ How to Run
 ```bash
-python log_analyzer.py
+git clone https://github.com/ptikare/sre-log-analyzer
+cd sre-log-analyzer/src
+python log_analyzer.py sample.log
