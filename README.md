@@ -15,11 +15,16 @@ A simple Python-based log analyzer that helps identify errors, warnings, and pat
 - Basic Data Structures (Dictionary, Counter)
 
 
-## 📂 Sample Log Input 
-INFO Server started 
+## 📂 Sample Log Input
+
+INFO Server started
+
 WARNING Disk space low 
+
 ERROR Database connection failed 
+
 INFO Request processed 
+
 ERROR Timeout occurred 
 
 
