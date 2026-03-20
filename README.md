@@ -16,16 +16,11 @@ A simple Python-based log analyzer that helps identify errors, warnings, and pat
 
 
 ## 📂 Sample Log Input
-
-INFO Server started
-
-WARNING Disk space low 
-
-ERROR Database connection failed 
-
-INFO Request processed 
-
-ERROR Timeout occurred 
+-INFO Server started
+-WARNING Disk space low 
+-ERROR Database connection failed 
+-INFO Request processed 
+-ERROR Timeout occurred 
 
 
 ## 📈 Sample Output
