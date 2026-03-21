@@ -1,4 +1,5 @@
-# 📊 SRE Log Analyzer (Python)
+# 📊 SRE Log Analyzer – Python Tool for Log Monitoring & Error Detection
+-A lightweight log analysis tool that helps identify errors, warnings, and patterns in system logs — inspired by real-world SRE debugging workflows.
 
 A Python-based log analyzer designed to simulate how Site Reliability Engineers (SREs) identify errors and debug issues during production incidents.
 
@@ -68,6 +69,16 @@ ERROR Database connection failed -> 1 time
 ```bash
 git clone https://github.com/ptikare/sre-log-analyzer.git
 cd sre-log-analyzer
-
+```
 2. Run the script
+```bash
 python log_analyzer.py
+```
+
+
+## 💡 Future Improvements
+- Add CLI support for dynamic log file input
+- Implement regex-based pattern detection
+- Build real-time log monitoring (tail -f style)
+- Integrate alerting (email/Slack notifications)
+  
