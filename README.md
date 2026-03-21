@@ -47,8 +47,10 @@ ERROR Database connection failed -> 1 time
 
 ## ▶️ How to Run
 1. Clone the repository
+
 git clone https://github.com/ptikare/sre-log-analyzer
 cd sre-log-analyzer/src
 
 2. Run the script
+
 python log_analyzer.py sample.log
