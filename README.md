@@ -1,7 +1,6 @@
 # 📊 SRE Log Analyzer – Python Tool for Log Monitoring & Error Detection
 -A lightweight log analysis tool that helps identify errors, warnings, and patterns in system logs — inspired by real-world SRE debugging workflows.
 
-A Python-based log analyzer designed to simulate how Site Reliability Engineers (SREs) identify errors and debug issues during production incidents.
 
 ## 🚀 Features
 - Parses log files efficiently
