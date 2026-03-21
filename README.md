@@ -24,6 +24,7 @@ This project demonstrates how automated log analysis can help in faster debuggin
 
 ## 📁 Project Structure
 sre-log-analyzer/
+
 │── log_analyzer.py
 │── sample.log
 │── README.md
