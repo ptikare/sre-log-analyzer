@@ -16,13 +16,13 @@ with open("sample.log", "r") as file:
             info_count += 1
 
 print("-------Log Summary----------")
-print("INFO logs: ", info_count)
-print("WARNING logs: ", warning_count)
-print("ERROR logs: ", error_count)
+print("INFO logs    : ", info_count)
+print("WARNING logs : ", warning_count)
+print("ERROR logs   : ", error_count)
 
-print("\n-------Error Deatails--------")
+print("\n-------Error Details--------")
 
 error_summary = Counter(error_messages)
 
 for error, count in error_summary.items():
-    print(f"{error} {count} time")
+    print(f"{error} -> {count} time(s)")
