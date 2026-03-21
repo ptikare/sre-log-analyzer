@@ -3,39 +3,23 @@
 
 A Python-based log analyzer designed to simulate how Site Reliability Engineers (SREs) identify errors and debug issues during production incidents.
 
+## 🚀 Features
+- Parses log files efficiently
+- Counts ERROR, WARNING, and INFO logs
+- Identifies most frequent error messages
+- Easy to extend for real-world use cases
+- Option to save analysis output to a file
+
 
 ## 🎯 Why This Project
 In real-world systems, logs grow rapidly and manually scanning them during incidents is inefficient.  
 This project demonstrates how automated log analysis can help in faster debugging and better observability.
 
 
-## 📌 Use Case
-This tool can be used by developers and SREs to quickly analyze logs during debugging, reducing manual effort and improving incident response time.
-
-
-## 🚀 Features
-- Parses log files efficiently
-- Counts ERROR, WARNING, and INFO logs
-- Identifies most frequent error messages
-- Easy to extend for real-world use cases
-
-
 ## 🛠️ Tech Stack
 - Python
 - File Handling
 - Basic Data Structures (Dictionary, Counter)
-
-
-## 📁 Project Structure
-
-sre-log-analyzer/
-│── src/                  # Source code  
-│   └── log_analyzer.py  
-│── logs/                 # Input log files  
-│   └── sample.log  
-│── output/               # Generated results  
-│   └── output.txt  
-│── README.md             # Documentation  
 
 
 ## 📂 Sample Log Input
@@ -84,6 +68,22 @@ cd sre-log-analyzer
 ```bash
 python log_analyzer.py
 ```
+
+
+## 📁 Project Structure
+
+sre-log-analyzer/
+│── src/                  # Source code  
+│   └── log_analyzer.py  
+│── logs/                 # Input log files  
+│   └── sample.log  
+│── output/               # Generated results  
+│   └── output.txt  
+│── README.md             # Documentation  
+
+
+## 📌 Use Case
+This tool can be used by developers and SREs to quickly analyze logs during debugging, reducing manual effort and improving incident response time.
 
 
 ## 💡 Future Improvements
