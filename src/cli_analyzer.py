@@ -25,6 +25,8 @@ def analyze_logs(file_path, top_n=3):
         print(f"WARNING logs : {warning_count}")
         print(f"ERROR logs   : {error_count}")
 
+        print(f"\nAnalyzing file: {file_path}")
+
         print("\n------ Top Error Messages ------")
         for error, count in error_counter.most_common(top_n):
             print(f"{error} -> {count} time(s)")
