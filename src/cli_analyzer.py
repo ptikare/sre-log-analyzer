@@ -20,12 +20,12 @@ def analyze_logs(file_path, top_n=3):
 
         error_counter = Counter(error_messages)
 
+        print(f"\nAnalyzing file: {file_path}")
+
         print("\n--------- Log Summary ---------")
         print(f"INFO logs    : {info_count}")
         print(f"WARNING logs : {warning_count}")
         print(f"ERROR logs   : {error_count}")
-
-        print(f"\nAnalyzing file: {file_path}")
 
         print("\n------ Top Error Messages ------")
         for error, count in error_counter.most_common(top_n):
