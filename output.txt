@@ -1,8 +1,0 @@
--------Log Summary----------
-INFO logs:  2
-WARNING logs:  1
-ERROR logs:  2
-
--------Error Deatails--------
-ERROR Database connection failed 1 time
-ERROR Timeout occurred 1 time

@@ -1,0 +1,8 @@
+===== Log Summary =====
+INFO: 2
+WARNING: 1
+ERROR: 2
+
+===== Error Details =====
+- Database connection failed: 1 time
+- Timeout occurred: 1 time
