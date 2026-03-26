@@ -72,7 +72,7 @@ cd sre-log-analyzer
 ```
 2. Run the script using:
 ```bash
-python src/cli_analyzer.py src/sample.log
+python src/cli_analyzer.py logs/sample.log
 ```
 
 
@@ -85,9 +85,6 @@ sre-log-analyzer/
 │
 │── logs/                        # Sample log files
 │   └── sample.log
-│
-│── output/                      # Generated outputs
-│   └── output.txt
 │
 │── README.md                    # Project documentation
 
