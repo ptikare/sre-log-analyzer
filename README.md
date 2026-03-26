@@ -11,8 +11,8 @@
 
 
 ## 🔄 Recent Enhancements
-- Added CLI support for dynamic file input
-- Implemented Top N error analysis using Python Counter
+- Added CLI-based input handling for flexible log analysis
+- Implemented Top N error detection using collections.Counter
 - Improved output formatting for better readability
 
 
@@ -72,7 +72,7 @@ cd sre-log-analyzer
 ```
 2. Run the script using:
 ```bash
-python cli_analyzer.py sample.log
+python src/cli_analyzer.py src/sample.log
 ```
 
 
