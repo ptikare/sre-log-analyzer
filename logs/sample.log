@@ -1,5 +1,5 @@
-INFO Server started
-WARNING Disk space low
+INFO Service started
 ERROR Database connection failed
-INFO Request processed
+WARNING High memory usage
+ERROR Database connection failed
 ERROR Timeout occurred
