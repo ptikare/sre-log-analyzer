@@ -51,7 +51,7 @@ def detect_error_spikes(error_timestamps, threshold=2, window_minutes=5):
                 break
 
         if count >= threshold:
-            print(f"\n⚠️ High error rate detected: {count} errors within {window_minutes} minutes")
+            print(f"\n⚠️ High error rate detected: {count} errors within {window_minutes}-minute window")
             spike_detected = True
             break
 
