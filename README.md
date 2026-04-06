@@ -3,17 +3,20 @@
 
 
 ## 🚀 Features
-- Parses log files efficiently
-- Counts ERROR, WARNING, and INFO logs
-- Identifies most frequent error messages
-- Supports CLI input for dynamic log file analysis
-- Displays Top N error messages for better insights
+- Parses log files using regex for structured analysis
+- Extracts timestamp, log level, and message
+- Counts INFO, WARNING, and ERROR logs
+- CLI support for dynamic log file input
+- Displays Top N error messages using collections.Counter
+- Detects error spikes based on time window (SRE use case)
+- Modular project structure for scalability
 
 
 ## 🔄 Recent Enhancements
 - Added CLI-based input handling for flexible log analysis
 - Implemented Top N error detection using collections.Counter
-- Improved output formatting for better readability
+- Introduced regex-based log parsing for structured data extraction
+- Built error spike detection using time-window analysis
 
 
 ## 🎯 Why This Project
@@ -60,19 +63,19 @@ ERROR Database connection failed -> 1 time
 ## 5. Screenshot section
 <img width="877" height="305" alt="CLI_output" src="https://github.com/user-attachments/assets/ecdf6a07-2ff9-4c7c-88a3-b095e17c7a1a" />
 
-Example output using CLI-based log analyzer with Top N error detection
+Example output showing log summary, top error messages, and error spike detection 
 
 
 ## ▶️ How to Run
 
-1. Clone the repository  
+1. Clone the repository: 
 ```bash
 git clone https://github.com/ptikare/sre-log-analyzer.git
 cd sre-log-analyzer
 ```
-2. Run the script using:
+2. Run the advanced analyzer:
 ```bash
-python src/cli_analyzer.py logs/sample.log
+python src/advanced_analyzer.py logs/sample.log
 ```
 
 
@@ -82,6 +85,7 @@ sre-log-analyzer/
 │── src/                         # Source code
 │   ├── log_analyzer.py          # Basic log analyzer
 │   └── cli_analyzer.py          # CLI-based analyzer with Top N errors
+│   └── advanced_analyzer.py     # Regex + spike detection
 │
 │── logs/                        # Sample log files
 │   └── sample.log
@@ -94,8 +98,8 @@ This tool can be used by developers and SREs to quickly analyze logs during debu
 
 
 ## 💡 Future Improvements
-- Add regex-based log parsing for structured analysis
-- Implement real-time log monitoring (tail -f style)
-- Detect error spikes over time
-- Integrate alerting (email/Slack notifications)
+- Real-time log monitoring (tail -f style)
+- Integration with alerting systems (Slack/Email)
+- Visualization dashboard for log insights
+- Support for multiple log formats
   
